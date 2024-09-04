@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-weight: 700;
+
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+  overflow-y: visible !important;
+}
+
+
+
+nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  z-index: 30;
+  background-color: #4949497a;
+  backdrop-filter: blur(10px);
+  
+}
+
+a {
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #ff5e00;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  margin-top: 140px;
+  padding-top: 100px;
+
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.1;
+  @apply md:text-6xl
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-bottom: 10px;
+
+}
+button:hover {
+  border-color: #ff7300;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #ffac74;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
