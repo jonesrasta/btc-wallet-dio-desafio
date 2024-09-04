@@ -31,13 +31,3 @@ Este projeto é uma aplicação de criar carteiras de bitcoin. Abaixo estão as 
 ```bash
    npm run dev
     
-4. Para iniciar o servidor backend, vá para o diretório do backend e execute:
-   Instale as dependências do projeto:
-
-```bash
-   npm install
-
-5. Para iniciar o servidor de desenvolvimento do frontend, execute:
-
-```bash
-   node index.js
