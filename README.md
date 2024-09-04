@@ -22,16 +22,26 @@ Este projeto é uma aplicação de criar carteiras de bitcoin. Abaixo estão as 
    cd btc-desafio-dio
 
 2- Instale as dependências do projeto:
-   npm install
+
+    ```bash
+    npm install
 
 3- Para iniciar o servidor de desenvolvimento do frontend, execute:
-   npm run dev 
+
+```bash
+   npm run dev
+    
    O frontend estará disponível em: http://localhost:5173
 
 ### Rodando o Backend
+
 1- Para iniciar o servidor backend, vá para o diretório do backend e execute:
    Instale as dependências do projeto:
+
+```bash
    npm install
 
 2- Para iniciar o servidor de desenvolvimento do frontend, execute:
+
+```bash
    node index.js
