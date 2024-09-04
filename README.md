@@ -4,7 +4,7 @@
 
 
 
-Este projeto é uma aplicação que faz criar carteiras de bitcoin. Abaixo estão as instruções para configurar e rodar o projeto em sua máquina local.
+Este projeto é uma aplicação de criar carteiras de bitcoin. Abaixo estão as instruções para configurar e rodar o projeto em sua máquina local.
 
 ## Requisitos
 
