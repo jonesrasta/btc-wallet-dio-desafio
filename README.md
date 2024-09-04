@@ -31,10 +31,6 @@ Este projeto é uma aplicação de criar carteiras de bitcoin. Abaixo estão as 
 ```bash
    npm run dev
     
-   O frontend estará disponível em: http://localhost:5173
-
-### Rodando o Backend
-
 4. Para iniciar o servidor backend, vá para o diretório do backend e execute:
    Instale as dependências do projeto:
 
