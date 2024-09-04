@@ -1,6 +1,7 @@
 # Bitcoin Wallet Desafio Dio
 
-![Application Mobile](https://github.com/user-attachments/assets/b1b2b2b7-e8ad-4675-80c8-194ac0598278)
+![Wallet DIO](https://github.com/user-attachments/assets/fd64d34a-0ce7-4284-bd1f-760033d986bb)
+
 
 
 Este projeto é uma aplicação que faz criar carteiras de bitcoin. Abaixo estão as instruções para configurar e rodar o projeto em sua máquina local.
