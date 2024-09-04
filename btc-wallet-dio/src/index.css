@@ -3,10 +3,11 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Orbitron, system-ui, Avenir, Helvetica, Arial, sans-serif;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-  font-weight: 700;
+  font-weight: 600;
+  @apply md:font-extrabold tracking-wider;
 
 }
 
@@ -22,10 +23,10 @@ nav {
   position: fixed;
   top: 0;
   bottom: 0;
-  height: 80px;
+  height: 75px;
   width: 100%;
   z-index: 30;
-  background-color: #4949497a;
+  background-color: #161616c5;
   backdrop-filter: blur(10px);
   
 }
@@ -42,37 +43,43 @@ a:hover {
 body {
   margin: 0;
   padding: 0;
-  margin-top: 140px;
+  margin-top: 120px;
   padding-top: 100px;
+  @apply md:pt-36
 
 }
 
 h1 {
   font-size: 40px;
   line-height: 1.1;
-  @apply md:text-6xl
+  @apply max-md:text-4xl
 }
 
 button {
-  border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #0c0c0ce5;
   cursor: pointer;
   transition: border-color 0.25s;
   margin-bottom: 10px;
+  @apply font-normal -tracking-tighter
 
 }
 button:hover {
-  border-color: #ff7300;
+  border-color: #ff6600;
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: 2px auto -webkit-focus-ring-color;
 }
+
+label {
+  @apply -tracking-tighter ;
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {

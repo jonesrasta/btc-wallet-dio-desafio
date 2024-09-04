@@ -1,4 +1,4 @@
-import logobtc from "../../assets/logobtc.png";
+import logobtc from "../../assets/logobitcoin.svg";
 
 function Navbar() {
   return (
@@ -8,12 +8,9 @@ function Navbar() {
             <a
               href="https://bitcoin.org/pt_BR/"
               target="_blank"
-              className="flex items-center space-x-3"
+              className="flex items-center"
             >
-              <img src={logobtc} className="h-10" alt="Flowbite Logo" />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                BTC Wallet
-              </span>
+              <img src={logobtc} className="h-10 items-center mx-auto" alt="Flowbite Logo" />
             </a>
           </div>
         </nav>

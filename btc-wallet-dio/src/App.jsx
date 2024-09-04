@@ -31,34 +31,34 @@ function App() {
           <img src={bgbitcoin} className="logo react" alt="BTC logo" />
         </a>
       </div>
-      <h1 className="mx-4">Gerador de Carteiras Bitcoin</h1>
+      <h1 className="mx-4 max-w-md">Gerador de Carteiras Bitcoin</h1>
       <div className="card w-full">
-        <label className="block mb-2 text-sm font-medium text-white text-left">
+        <label className="block mb-2 text-base font-normal text-white text-left">
           Address
         </label>
         <input
           type="text"
           value={btcAddress}
           onChange={(e) => setBtcAddress(e.target.value)}
-          className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-orange-500 focus:border-orange-500 block w-full p-2.5 mb-6"
+          className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-orange-500 focus:border-orange-500 block w-full p-2.5 mb-6"
         />
-        <label className="block mb-2 text-sm font-medium text-white text-left">
+        <label className="block mb-2 text-base font-normal text-white text-left tracking-wide">
           Private Key
         </label>
         <input
           type="text"
           value={privateKey}
           onChange={(e) => setPrivateKey(e.target.value)}
-          className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-orange-500 focus:border-orange-500 block w-full p-2.5 mb-6"
+          className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-orange-500 focus:border-orange-500 block w-full p-2.5 mb-6"
         />
-        <label className="block mb-2 text-sm font-medium text-white text-left">
+        <label className="block mb-2 text-base font-normal text-white text-left tracking-wide">
           Seed
         </label>
         <input
           type="text"
           value={mnemonic}
           onChange={(e) => setMnemonic(e.target.value)}
-          className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-orange-500 focus:border-orange-500 block w-full p-2.5 mb-6"
+          className="bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-orange-500 focus:border-orange-500 block w-full p-2.5 mb-6"
         />
         <button onClick={generateWallet}>Gerar Carteira</button>
       </div>
