@@ -21,12 +21,12 @@ Este projeto é uma aplicação de criar carteiras de bitcoin. Abaixo estão as 
    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/jonesrasta/btc-wallet-dio-desafio.git)
    cd btc-desafio-dio
 
-2- Instale as dependências do projeto:
+2. Instale as dependências do projeto:
 
     ```bash
     npm install
 
-3- Para iniciar o servidor de desenvolvimento do frontend, execute:
+3. Para iniciar o servidor de desenvolvimento do frontend, execute:
 
 ```bash
    npm run dev
@@ -35,7 +35,7 @@ Este projeto é uma aplicação de criar carteiras de bitcoin. Abaixo estão as 
 
 ### Rodando o Backend
 
-1- Para iniciar o servidor backend, vá para o diretório do backend e execute:
+1. Para iniciar o servidor backend, vá para o diretório do backend e execute:
    Instale as dependências do projeto:
 
 ```bash
