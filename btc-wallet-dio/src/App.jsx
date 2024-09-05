@@ -12,7 +12,6 @@ function App() {
   
   const generateWallet = async () => {
     try {
-     // http://localhost:3000/generate-wallet
       const response = await fetch("https://btc-wallet-dio-desafio.onrender.com/generate-wallet", {
         method: "POST",
         headers: {
