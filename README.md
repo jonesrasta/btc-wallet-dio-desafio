@@ -93,6 +93,4 @@ A aplicação em produção está disponível no seguinte link:
 - URL do frontend (deploy): [https://btc-wallet-dio-desafio.vercel.app/](https://btc-wallet-dio-desafio.vercel.app/)
 - URL do backend (deploy): [https://btc-wallet-dio-desafio.onrender.com/](https://btc-wallet-dio-desafio.onrender.com/)
 
----
 
-Com isso, seu `README.md` estará atualizado com as instruções sobre como rodar o projeto localmente e com a URL da versão em produção.
