@@ -91,6 +91,5 @@ const generateWallet = async () => {
 A aplicação em produção está disponível no seguinte link:
 
 - URL do frontend (deploy): [https://btc-wallet-dio-desafio.vercel.app/](https://btc-wallet-dio-desafio.vercel.app/)
-- URL do backend (deploy): [https://btc-wallet-dio-desafio.onrender.com/](https://btc-wallet-dio-desafio.onrender.com/)
 
 
