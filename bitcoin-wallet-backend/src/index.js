@@ -7,10 +7,8 @@ const bitcoin = require('bitcoinjs-lib');
 
 const app = express();
 
-// Configuração do CORS
 app.use(cors());
 
-// Configuração do bodyParser
 app.use(bodyParser.json());
 
 app.post('/generate-wallet', (req, res) => {
@@ -21,9 +19,7 @@ app.post('/generate-wallet', (req, res) => {
     let mnemonic = bip39.generateMnemonic();
     const seed = bip39.mnemonicToSeedSync(mnemonic);
 
-    // Utilizando a função apropriada para a versão da biblioteca
-    let root = bip32.fromSeed(seed); // Ajuste aqui se necessário
-    
+    let root = bip32.fromSeed(seed);
     let account = root.derivePath(path);
     let node = account.derive(0).derive(0);
 
