@@ -75,7 +75,7 @@ Para rodar localmente, altere a URL para:
 ```javascript
 const generateWallet = async () => {
   try {
-    const response = await fetch("http://localhost:3000/generate-wallet", {  // Altere para localhost
+    const response = await fetch("http://localhost:3000/generate-wallet", {  
       method: "POST",
       headers: {
         "Content-Type": "application/json",
