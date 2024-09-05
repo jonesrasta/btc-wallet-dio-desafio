@@ -18,7 +18,7 @@ Este projeto é uma aplicação de criar carteiras de bitcoin. Abaixo estão as 
 1. Clone o repositório:
 
    ```bash
-   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/jonesrasta/btc-wallet-dio-desafio.git)
+   git clone [https://github.com/jonesrasta/btc-wallet-dio-desafio.git]
    cd btc-desafio-dio
 
 2. Instale as dependências do projeto:
