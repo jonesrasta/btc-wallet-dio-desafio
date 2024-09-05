@@ -5,7 +5,7 @@ function Navbar() {
       <div className="flex mx-auto w-full items-center justify-center">
         <nav className="bg-[#07080ad7] z-20 border-gray-200 backdrop-blur-md">
           <div className="mx-auto p-4 max-w-7xl">
-            <a
+            <a 
               href="https://bitcoin.org/pt_BR/"
               target="_blank"
               className="flex items-center"

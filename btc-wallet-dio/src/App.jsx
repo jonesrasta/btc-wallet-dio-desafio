@@ -1,5 +1,5 @@
 import { useState } from "react";
-import bgbitcoin from "./assets/bgbitcoin.png";
+import bgbitcoin from "./assets/bgbitcoin.webp";
 import "./App.css";
 
 function App() {
@@ -26,9 +26,9 @@ function App() {
 
   return (
     <div className="flex flex-col items-center justify-center h-96 max-w-3xl mx-auto">
-      <div className="flex items-center justify-center ">
+      <div className="flex items-center justify-center">
         <a>
-          <img src={bgbitcoin} className="logo react" alt="BTC logo" />
+          <img src={bgbitcoin} className="background-img" alt="BTC logo" />
         </a>
       </div>
       <h1 className="mx-4 max-w-md">Gerador de Carteiras Bitcoin</h1>
@@ -37,11 +37,11 @@ function App() {
           Address
         </label>
         <input
-          type="text"
-          value={btcAddress}
-          onChange={(e) => setBtcAddress(e.target.value)}
-          className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-orange-500 focus:border-orange-500 block w-full p-2.5 mb-6"
-        />
+  type="text"
+  value={btcAddress}
+  onChange={(e) => setBtcAddress(e.target.value)}
+  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:border-[#e9830e] block w-full p-2.5 mb-6"
+/>
         <label className="block mb-2 text-base font-normal text-white text-left tracking-wide">
           Private Key
         </label>
