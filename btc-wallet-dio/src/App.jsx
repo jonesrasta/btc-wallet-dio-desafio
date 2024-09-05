@@ -7,9 +7,13 @@ function App() {
   const [privateKey, setPrivateKey] = useState("");
   const [mnemonic, setMnemonic] = useState("");
 
+
+
+  
   const generateWallet = async () => {
     try {
-      const response = await fetch("http://localhost:3000/generate-wallet", {
+     // http://localhost:3000/generate-wallet
+      const response = await fetch("https://btc-wallet-dio-desafio.onrender.com/generate-wallet", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
